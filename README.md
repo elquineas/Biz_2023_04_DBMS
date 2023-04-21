@@ -23,3 +23,8 @@
  ERD
  개념적 모델링
  논리적 모델링
+
+ # ERD클라우드
+ - https://www.erdcloud.com/
+ - 왼쪽 L 눌러서 테이블 정리
+ 
