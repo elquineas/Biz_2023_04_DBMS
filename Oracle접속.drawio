@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T05:16:50.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZalnokGdSSbLd_-IT17i" version="21.3.2" type="device">
+  <diagram name="페이지-1" id="R__XN7mKxRCkxND0Nxx2">
+    <mxGraphModel dx="819" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-1" target="WjwCbfGsX18-fb_L_pC3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-1" value="관리자(DBA)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="159" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-4" value="Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="950" y="159" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-5" target="WjwCbfGsX18-fb_L_pC3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-5" target="WjwCbfGsX18-fb_L_pC3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-5" value="Sys 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="179" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-8" target="WjwCbfGsX18-fb_L_pC3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-8" value="DB User Create&lt;br&gt;DB&amp;nbsp;User Drop&lt;br&gt;DB Alter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="169" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-9" value="DDL (정의)&lt;br&gt;(Data Definition Lang)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="129" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-10" target="WjwCbfGsX18-fb_L_pC3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-10" value="유저(User)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="319" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.598;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-12" target="WjwCbfGsX18-fb_L_pC3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-12" value="User 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="339" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-15" value="CREATE : INSERT&lt;br&gt;READ : SELECT&lt;br&gt;UPDATE : UPDATE&lt;br&gt;DELETE : DELETE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="329" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-16" value="DML (관리)&lt;br&gt;(Data Manuplulation Lang)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="399" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WjwCbfGsX18-fb_L_pC3-17" target="WjwCbfGsX18-fb_L_pC3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-17" value="GRANT, REVOKE&lt;br&gt;COMMIT,&amp;nbsp;ROLL BACK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WjwCbfGsX18-fb_L_pC3-19" value="DCL (권한)&lt;br&gt;(Data Control Lang)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
