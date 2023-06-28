@@ -1,0 +1,12 @@
+CREATE TABLESPACE shopingCart
+DATAFILE 'C:/app/data/shopingCart.dbf'
+SIZE 1M AUTOEXTEND ON NEXT 1K;
+
+commit;
+
+CREATE USER shoping IDENTIFIED BY 12341234
+DEFAULT TABLESPACE shopingCart;
+
+GRANT DBA TO shoping;
+
+DROP TABLESPACE shopingCart;
